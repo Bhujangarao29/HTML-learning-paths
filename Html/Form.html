@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Job Registration Form</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Job Registration Form</h2>
+
+        <form>
+
+
+            <tr>
+                <td>Full Name</td>
+                <td><input type="text" name="fullname" required></td>
+            </tr><br><br>
+
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email" required></td>
+            </tr><br><br>
+
+            <tr>
+                <td>Phone Number</td>
+                <td><input type="tel" name="phone" required></td>
+            </tr><br><br>
+
+            <tr>
+                <td>Date of Birth</td>
+                <td><input type="date" name="dob"></td>
+            </tr><br><br>
+
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender" value="Male"> Male
+                    <input type="radio" name="gender" value="Female"> Female
+                    <input type="radio" name="gender" value="Other"> Other
+                </td>
+            </tr><br><br>
+
+            <tr>
+                <td>Qualification</td>
+                <td>
+                    <select name="qualification">
+                        <option>Select</option>
+                        <option>B.E/B.Tech</option>
+                        <option>B.Sc</option>
+                        <option>B.Com</option>
+                        <option>MCA</option>
+                        <option>MBA</option>
+                    </select>
+                </td>
+            </tr><br><br>
+
+            <tr>
+                <td>Job Position</td>
+                <td>
+                    <select name="position">
+                        <option>Select Position</option>
+                        <option>Software Developer</option>
+                        <option>Web Designer</option>
+                        <option>Data Analyst</option>
+                        <option>HR Executive</option>
+                    </select>
+                </td>
+            </tr><br><br>
+
+            <tr>
+                <td>Experience</td>
+                <td><input type="number" min="0" max="30" placeholder="Years"></td>
+            </tr><br><br>
+
+            <tr>
+                <td>Upload Resume</td>
+                <td><input type="file" name="resume"></td>
+            </tr><br><br>
+
+            <tr>
+                <td>Address</td>
+                <td>
+                    <textarea rows="4"></textarea>
+                </td>
+            </tr> <br><br>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Register" class="btn">
+                    <input type="reset" value="Clear" class="btn">
+                </td>
+            </tr>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
